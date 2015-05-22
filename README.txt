@@ -1,13 +1,10 @@
 README.TEXT
 
 Files and folders in this project: 
-2 folders: git_detect and tools
+2 folders: poi_detect and tools
 
-project_report.pdf provides the narrative on the workflow.  The way features are generated and selected for classification is discussed.  The results between Naive Bayes and Decision Tree are compared.  It includes a discussion on Stratified K-fold cross validation and ShuffleSplit iterator.  Evaluation metrics and their interpretation completes the analysis.
-
-git_detect folder contains the following files:
-
-project_report: steps taken to learn from the data to detect “person of interest” and to discuss evaluation metrics
+poi_detect:
+project_report.pdf: provides the narrative on the workflow.  The way features are generated and selected for classification is discussed.  The results between Naive Bayes and Decision Tree are compared.  It includes a discussion on Stratified K-fold cross validation and ShuffleSplit iterator.  Evaluation metrics and their interpretation completes the analysis.
 
 final_project_dataset.pkl: initial dataset that contains the financial and email information of 145 Enron employees
 
