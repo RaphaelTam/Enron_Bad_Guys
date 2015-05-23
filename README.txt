@@ -14,10 +14,6 @@ from_poi_ratio.py: generates a feature that is the ratio of “from_this_person_to
 
 to_poi_ratio.py: generates a feature that is the ratio of “from_poi_to_this_person” and “to_messages”.
 
-from_cross_to.py: generates a feature that is the product of from_poi_ratio and to_poi_ratio.
-
-from_squared.py: generates a feature that is the square of from_poi_ratio.
-
 tuning_tree.py: uses different values for the parameters of a decision tree classifier and calls test_classifier in tester.py to produce evaluation metrics as well as feature importances.
 
 poi_id.py: workflow that removes outlier, generates features, selects features and instantiates a classifier.  Dump the engineered dataset, classifier and feature selection into pickle files: my_dataset.pkl, my_classifieer.pkl, my_features.pkl

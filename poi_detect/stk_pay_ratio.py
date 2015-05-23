@@ -13,8 +13,7 @@ def stk_pay_ratio(d_dict):
             d_dict[person]['stk_pay_ratio'] = 0
         
         else:
-            if d_dict[person]['total_payments'] <0 or d_dict[person]['total_stock_value'] <0:
-                print('total_payments = {0}, total_stock = {1}').format(d_dict[person]['total_payments'], d_dict[person]['total_stock_value'])
+            
             d_dict[person]['stk_pay_ratio'] = d_dict[person]['total_stock_value']/ \
             d_dict[person]['total_payments']
             
