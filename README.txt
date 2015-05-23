@@ -14,11 +14,15 @@ from_poi_ratio.py: generates a feature that is the ratio of “from_this_person_to
 
 to_poi_ratio.py: generates a feature that is the ratio of “from_poi_to_this_person” and “to_messages”.
 
-tuning_tree.py: uses different values for the parameters of a decision tree classifier and calls test_classifier in tester.py to produce evaluation metrics as well as feature importances.
+stk_pay_raio.py generates a feature that is the ratio of total stock value over total payments.
 
 poi_id.py: workflow that removes outlier, generates features, selects features and instantiates a classifier.  Dump the engineered dataset, classifier and feature selection into pickle files: my_dataset.pkl, my_classifieer.pkl, my_features.pkl
 
 tester.py: reads engineered dataset, classifier and feature files produced by poi_id.py, runs the classifier and produces evaluation metrics.
+
+ptest: calculates the precision of NBC
+
+fList_set: generates a set of features lists that is made up of all combinations of the 4 engineered features
 
 my_classifier.pkl: output from poi_id.py
 
